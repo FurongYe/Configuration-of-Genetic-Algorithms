@@ -1,0 +1,5 @@
+logs/
+instance/
+*.cmake
+*.log
+CMakeCache.txt

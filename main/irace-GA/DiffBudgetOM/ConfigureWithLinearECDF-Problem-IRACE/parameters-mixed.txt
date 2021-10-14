@@ -1,0 +1,4 @@
+mu                    "--mu "                   i (1,100)                             # parent population size
+lambda                "--lambda "               i (1,100)                              # offspring population size
+pc                    "--pc "                   r (0,0.99)  | mu >= 2                               # crossover probabilty
+p                    "--p "                     r (0.005,0.5)                              # mutation rate

@@ -1,0 +1,5 @@
+#!/usr/bin/env Rscript
+library("irace")
+setwd("/home/fye/MLGA/configurablega/main/irace-GA/DiffBudgetOM/ConfigureWithERT-IRACE/")
+scenario <- readScenario(filename = "instance/problem_id-scenario.txt",scenario = defaultScenario())
+irace.main(scenario = scenario)
